@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>Archives | Hexo</title>
+  <title>Hexo</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -59,7 +59,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -166,87 +166,47 @@
         <!-- ============================ Header & Logo bar =========================== -->
 
 
-      <!-- ============================ Hero Image =========================== -->
-
-<section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(/img/bg_img.jpg) no-repeat center center fixed;background-size: cover">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
-                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
-                    <div>
-                        
-                        <h2>YOU'VE MADE A <span>BRAVE</span> DECISION, WELCOME.</h2>
-                        <p></p>
-                        
-                        <h2></h2>
-                        <p>每一个不曾起舞的日子都是对生命的辜负。</p>
-                        
-
-                    </div>
-                </div>
-            </div>
-            <!-- // .col-md-12 -->
-        </div>
-        <div class="herofade beige-dk"></div>
-    </div>
-</section>
-
-<!-- Height spacing helper -->
-<div class="heightblock"></div>
-<!-- // End height spacing helper -->
-
-<!-- ============================ END Hero Image =========================== -->
-
-
-
-
-<section id="services">
+      
+<section id="intro">
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row boxes">
-                    
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2017/05/01/话说博客搭建过程中遇到的困难/"></a></h4>
-                            
-                            <p><time datetime="2017-05-01T00:18:34.296Z"><a href="/2017/05/01/话说博客搭建过程中遇到的困难/">2017-05-01</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2017/04/29/终于安装好博客。/">终于安装好博客。</a></h4>
-                            
-                            <p><time datetime="2017-04-29T02:32:34.000Z"><a href="/2017/04/29/终于安装好博客。/">2017-04-29</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2017/04/29/hello-world/">Hello World</a></h4>
-                            
-                            <p><time datetime="2017-04-29T01:46:22.230Z"><a href="/2017/04/29/hello-world/">2017-04-29</a></time></p>
-                        </div>
-                    
-                </div>
-            </div>    
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2017-05-01T00:18:34.296Z" itemprop="datePublished">
+          2017-05-01
+      </time>
+    
+</span>
+                <h1></h1>
+            </div>
         </div>
-    </div>
-</section> 
+        <div class="col-md-8 col-md-offset-2">
+      		<hr>
+<p>title: 话说博客搭建过程中遇到的困难<br>date: 2017-05-01 08:18:34<br>tags:<br>—桌面上的新建文件夹就成了我写博客的常用工具。不知道MD抽什么风，哎。觉得再不克制一下自己可能要硬生生把博客弄成空间，时不时还来个小练笔什么的，好惊恐啊！So，决定写一下我搭博客借鉴的大牛的一些文章，还有具体一点的问题。刚刚还答应帮同学们也搭下博客，可能会有更多经验吧~首先，我们组长推荐的技术贴</p>
+<blockquote>
+<p><a href="http://blog.csdn.net/gdutxiaoxu/article/details/53576018" target="_blank" rel="external">http://blog.csdn.net/gdutxiaoxu/article/details/53576018</a><br>这篇文章写得真的是很清晰，一步一步的按照步骤来走。但是我还是有遇到一些这样或者那样的小问题。<br>首先在创建代码库的那个时候用了“-”可能是因为这个问题吧，链接github和hexo的时候就不是很顺利，<strong>主要表现在ssh的命令输入之后会蹦出来一堆错，在文档中也找不到pub的文件格式。</strong>后来是删掉了先创建的repository，后来又自己创建了一个。此后再没有这个地方的问题了。<br>第二个地方是仓库地址的格式问题，百度一查，真真假假虚虚实实，主要原因是github有更新，但是帖子的时间不一样，所以却越来越糊涂。这里其实我个人觉得就应该知道config.yml这个里面大致东东的用途，还有从哪里可以找到对应的东西，这个对于小白比较麻烦，但是接触的多了，自然就熟了。我百度有时候找其他的问题，发现有大牛每个小部分都有注释，可以针对问题去看一小部分，更加深记忆。<br>第三个地方，就是改主题的时候next下下来的文件不知道哪里出问题装不了，这个还没有琢磨出来，但是换了一个很可爱的主题，个人觉得比next适合自己一点。算是误打误撞了吧~<br>最后就是现在还没有解决的问题了，就是Markdown的软件好像用不了，不过百度了MD，对它期待值还是挺高的，可能是我下了假的软件吧&gt;.&lt;</p>
+</blockquote>
 
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>虽然还没想好写点什么，但是总觉得这里放句话比较和谐。</p>
+            <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
+        <nav class="pagination" role="pagination">
+    
+    
+    <a class="pull-right" href="/2017/04/29/终于安装好博客。/">
+        终于安装好博客。 →
+    </a>
+    
+</nav>
+
+        <div class="duoshuo">
+
+
+</div>
     </div>
 </section>
+
+
       
 <!-- ============================ Footer =========================== -->
 
